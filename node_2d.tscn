@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://bkd6l84okn7u"]
 
+[sub_resource type="SystemFont" id="SystemFont_y32ns"]
+
 [sub_resource type="GDScript" id="GDScript_y32ns"]
 script/source = "extends Node2D
 
@@ -21,5 +23,7 @@ offset_left = 321.0
 offset_top = 163.0
 offset_right = 756.0
 offset_bottom = 398.0
+theme_override_fonts/font = SubResource("SystemFont_y32ns")
+theme_override_font_sizes/font_size = 25
 text = "Multiplayer Game"
 script = SubResource("GDScript_y32ns")
